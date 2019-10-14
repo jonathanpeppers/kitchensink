@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kitchensink.Views.MainPage"
+             Title="{Binding Title}">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Label Text="Welcome to Xamarin Forms and Prism!" />
+        <Button Text="Go" Command="{Binding GoCommand}"/>
+        <Image HeightRequest="200" Source="https://images.homedepot-static.com/productImages/cdcc127e-fcd7-4696-8163-70be33f1051a/svn/stainless-steel-elkay-drop-in-kitchen-sinks-hddb332284qi-64_1000.jpg" />
+    </StackLayout>
+
+</ContentPage>
